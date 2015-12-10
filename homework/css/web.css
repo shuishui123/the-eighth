@@ -1,0 +1,495 @@
+
+body {
+	font-family: "Microsoft Yahei";
+}
+#container {
+	width: 1282px;
+	margin:0 auto;
+}
+#DHL {
+	margin: 0 auto;
+	padding: 0;
+	width: 1282px;
+	height: 535px;
+	background: url("../picture/introduce.png");
+	overflow: hidden;
+}
+#dhl {
+	margin:0;
+	padding: 0;
+	width: 1029px;
+	height: 23px;
+	margin: 0 auto;
+}
+#logo {
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	color: #fff;
+	margin-top: 62px;
+	display: block;
+}
+#select {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+}
+#select li{
+	padding: 0;
+	float: right;
+	padding-left: 36px;
+	right: 0px;
+	font-size: 17px;
+	margin-top: -17px;
+	cursor: pointer;
+}
+#select li a {
+	text-decoration: none;
+	color: #fff;
+}
+#select li a:hover {
+	color: #26bc9e;
+}
+#introduce {
+	margin: 0;
+	padding: 0;
+	width: 658px;
+	height: 378px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-left: 312px;
+}
+#p1 {
+	width: 576px;
+	margin: 0;
+	font-size: 39px;
+	margin-top: 161px;
+	margin-left: 41px;
+	text-align: center;
+	color: #fff;
+}
+#hx1 {
+	border:none;
+	border-top:2px solid #fff;
+	margin: 0;
+	margin-top: 13px;
+}
+#fd {
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	margin-top: 18px;
+	font-size: 20px;
+}
+#blue {
+	width: 1282px;
+	height: 63px;
+}
+#bl {
+	width: 235px;
+	height: 63px;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: -32px;
+	background: url("../picture/blue block.png");
+	overflow: hidden;
+}
+#bl > p {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+
+}
+#words {
+	width: 1282px;
+	height: 430px;
+	margin-top:-32px; 
+}
+#rl {
+	margin: 0;
+	text-align: center;
+	font-size: 27px;
+	color: #1abc9c;
+	margin-top: 160px;
+}
+#long {
+	width: 817px;
+	margin: 0 auto;
+	margin-top: 57px;
+}
+#long > p {
+	text-align: center;
+	font-size: 16px;
+	color: #a3b1b2;
+	margin: 0;
+	line-height: 32px;
+}
+#iconfont {
+	width: 1282px;
+	height: 408px;
+
+}
+#three {
+	width: 1080px;
+	height: 408px;
+	margin: 0 auto;
+}
+#qb {
+	width: 274px;
+	height: 408px;
+
+	position: relative;
+	float: left;
+
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/qianbi/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/qianbi/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/qianbi/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/qianbi/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/qianbi/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:68px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1abc9c;
+    margin-left: 95px;
+}
+#qb > h1 ,
+#dw > h1 ,
+#bbt >h1 {
+	font-size: 17px;
+	color: #1abc9c;
+	text-align: center;
+	margin: 0;
+	margin-top: 34px;
+}
+#qb > p ,
+#dw > p ,
+#bbt >p {
+	font-size: 13px;
+	color: #b1bdbe;
+	line-height: 35px;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/dingwei/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/dingwei/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/dingwei/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/dingwei/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/dingwei/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+#dw {
+	width: 274px;
+	height: 408px;
+	position: relative;
+	float: left;
+	margin-left: 130px;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/bangbangtang/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/bangbangtang/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/bangbangtang/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/bangbangtang/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/bangbangtang/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+#bbt {
+	width: 274px;
+	height: 408px;
+
+	position: relative;
+	float: right;
+}
+#hx2 {
+	border:none;
+	border-top:2px solid #e6eaea;
+	margin: 0;
+	margin-top: 13px;
+	width: 1080px;
+}
+#picture {
+	width: 1282px;
+	height: 779px;
+
+}
+#picture_container {
+	width: 1080px;
+	height: 779px;
+
+	margin: 0 auto;
+}
+#picture1 {
+	width: 428px;
+	height: 322px;
+	margin-top: 80px;
+
+	background: url("../picture/p1.png");
+	position: relative;
+	float: left;
+}
+#picture2 {
+	width: 428px;
+	height: 322px;
+	margin-top: 80px;
+	background: url("../picture/p2.png");
+	position: relative;
+	float: right;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/chazhao/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/chazhao/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/chazhao/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/chazhao/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/chazhao/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont2 {
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    margin-left: 367px;
+    position: relative;
+    float: top;
+    top: 38px;
+}
+#picture2 > h1 {
+	margin: 0;
+	margin-top: 224px;
+	margin-left: 22px;
+	color: #fff;
+	font-size: 22px;
+
+}
+#picture2 > p {
+	margin: 0;
+	margin-left: 22px;
+	color: #297465;
+	font-size: 14px;
+	margin-top: 6px;
+}
+#picture3 {
+	width: 428px;
+	height: 322px;
+
+	position: relative;
+	float: left;
+	margin-top: 60px;
+	background: url("../picture/p3.png");
+}
+#picture4 {
+	width: 428px;
+	height: 322px;
+	margin-top: 60px;
+	position: relative;
+	float: right;
+	background: url("../picture/p4.png");
+
+}
+#vm {
+	width: 1080px;
+	height: 220px;
+	margin: 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#vmc {
+	width: 234px;
+	height: 62px;
+
+	margin: 0 auto;
+	margin-top: 80px;
+	background-color: #1abc9c;
+}
+#vmc > p {
+	margin: 0;
+	margin-left: 33px;
+	line-height: 62px;
+	font-size: 20px;
+	color: #fff;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/xiangyou/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/xiangyou/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/xiangyou/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/xiangyou/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/xiangyou/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont3{
+    font-family:"iconfont" !important;
+    font-size:25px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    float: right;
+    top: -45px;
+    right: 20px;
+    color: #fff;
+}
+#Git {
+	width: 820px;
+	height: 570px;
+	margin: 0;
+	margin:0 auto;
+	overflow: hidden;
+}
+#Git > p {
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 67px;
+	color: #1abc9c;
+}
+#ip {
+	width: 820px;
+	height: 375px;
+
+	margin-top: 80px;
+}
+#name_input {
+	display: inline-block;
+	width: 360px;
+	height: 78px;
+	outline: none;
+	font-size: 25px;
+	background-color: #e4e8e8;
+	padding-left: 32px;
+	border:0;
+}
+#email_input {
+	display: inline-block;
+	width: 360px;
+	height: 78px;
+	outline: none;
+	font-size: 25px;
+	background-color: #e4e8e8;
+	padding-left: 32px;
+	float: right;
+	border:0;
+}
+#help_input {
+	display: inline-block;
+	width: 788px;
+	height: 232px;
+	outline: none;
+	font-size: 28px;
+	background-color: #e4e8e8;
+	border:0;
+	margin-top: 30px;
+	padding-left: 32px;
+	padding-top: 33px;
+}
+#hx3 {
+	border:none;
+	border-top:2px solid #e6eaea;
+	margin: 0;
+	width: 1080px;
+	margin-top: 75px;
+}
+#buttom {
+	width: 1282px;
+	height: 290px;
+	margin-top: 130px;
+}
+#nqf {
+	width: 826px;
+	height: 110px;
+	margin:0 auto;
+	position: relative;
+	top: -257px;
+}
+#fn {
+	width: 96px;
+	height: 96px;
+	border:7px solid #1abc9c;
+	position: relative;
+	float: left;
+	background-color: #f6f6f6;
+}
+#lq {
+	width: 96px;
+	height: 96px;
+	border:7px solid #1abc9c;
+	position: relative;
+	float: left;
+	margin-left: 257px;
+	background-color: #f6f6f6;
+}
+#f {
+	width: 96px;
+	height: 96px;
+	border:7px solid #1abc9c;
+	position: relative;
+	float: right;
+	background-color: #f6f6f6;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/feiniao/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/feiniao/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/feiniao/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/feiniao/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/feiniao/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont4 {
+    font-family:"iconfont" !important;
+    font-size:45px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1abc9c;
+    position: relative;
+    float: left;
+    top: 25px;
+    left: 25px;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/lanqiu/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/lanqiu/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/lanqiu/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/lanqiu/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/lanqiu/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'iconfont';
+    src: url('../iconfont/f/iconfont.eot'); /* IE9*/
+    src: url('../iconfont/f/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/f/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../iconfont/f/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../iconfont/f/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+#lan {
+	width: 1282px;
+	height: 257px;
+	background-color: #1abc9c;
+	position: relative;
+	float: left;
+	top: 32px;
+}
+#p2 {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	float: left;
+	left: 125px;
+	top: 155px;
+	font-size: 20px;
+	color: #fff;
+}
+#p3 {
+	margin: 0;
+	position: relative;
+	top: 155px;
+	float: right;
+	right: 125px;
+	font-size: 20px;
+	color: #fff;
+}
